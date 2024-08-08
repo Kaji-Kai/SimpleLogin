@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="/Images/logo-small.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Styles/login-style.css">
+    <title>Log In | Helpdesk Client Portal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="#" method="get" id="login">
+                <img src="/Images/logo.png" alt="IT Operations" class="login-logo">
+                <br>
+                <h1 class="login-header">Helpdesk Client Portal Login</h1>
+                <br>
+                <label for="user-mail"form="login">Login e-mail</label>
+                <br><input type="email" name="mail" id="user-mail" required placeholder="name@company.com">
+                <br>
+                <label for="password" form="login">Password</label>
+                <br>
+                <input type="password" name="pass" id="password" required placeholder="Enter at least 8 characters..." minlength="8">
+                <br><br>
+                <input type="submit" value="Log In" id="btn-login">
+                <br>
+                <p style="margin-top: 10vh; font-size: smaller; font-weight: 300;">SimpleLogin by Tomas Nerad, &copy; <span id="year"></span>.</p>
+            </form>
+        </div>
+    </div>
+    <script src="Scripts/year.js"></script>
+</body>
+</html>
